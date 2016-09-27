@@ -16,7 +16,7 @@
   </div>
   <div id="transcript-tabs" class="col-sm-6 col-md-6">
     <ul id="tabs-list">
-      <li><a href="#transcript-tab">Transcript</a></li>
+      <li><a href="#transcript-tab">Index</a></li>
       <?php if (array_key_exists('annotation_content', $params)): ?>
         <li><a href="#annotation-tab">Annotation</a></li>
       <?php endif; ?>

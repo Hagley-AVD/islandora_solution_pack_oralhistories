@@ -32,8 +32,8 @@ function islandora_oralhistories_preprocess_islandora_oralhistories(array &$vari
   drupal_add_library('system', 'ui.tabs');
 
   // reactJS library. This library is used for 'Annotation' tab.
-  drupal_add_js($module_path . '/lib/reactjs/react.js');
-  drupal_add_js($module_path . '/lib/reactjs/react-dom.js');
+ /* drupal_add_js($module_path . '/lib/reactjs/react.js');
+  drupal_add_js($module_path . '/lib/reactjs/react-dom.js');*/
 
   $object = $variables['object'];
   $repository = $object->repository;
@@ -220,7 +220,7 @@ function islandora_oralhistories_preprocess_islandora_oralhistories(array &$vari
   if ($object->models[0] == 'islandora:oralhistoriesCModel' ) {
     drupal_add_js(array('islandoraOralhistories' => $js_settings), 'setting');
     drupal_add_js($module_path . '/js/oralhistories.js');
-    drupal_add_js($module_path . '/js/annotationApp.js');
+   /* drupal_add_js($module_path . '/js/annotationApp.js');*/
   }
   return array('' => $viewer);
 }

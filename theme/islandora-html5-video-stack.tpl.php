@@ -1,3 +1,5 @@
+<script src="http://hagley.ingest.dgicloud.com/sites/all/modules/responsive_menus/styles/meanMenu/jquery.meanmenu.min.js"></script>
+<script src="http://hagley.ingest.dgicloud.com/sites/all/modules/responsive_menus/styles/meanMenu/responsive_menus_mean_menu.js?ocw37s"></script>
 <div class="row">
   <div class="col-sm-12 col-md-12">
     <div data-transcripts-role="video" data-transcripts-id="<?php print $params['trid']; ?>">
@@ -16,7 +18,7 @@
   </div>
   <div id="transcript-tabs" class="col-sm-12 col-md-12">
     <ul id="tabs-list">
-      <li><a href="#transcript-tab">Transcript</a></li>
+      <li><a href="#transcript-tab">Index</a></li>
       <?php if (array_key_exists('annotation_content', $params)): ?>
         <li><a href="#annotation-tab">Annotation</a></li>
       <?php endif; ?>
