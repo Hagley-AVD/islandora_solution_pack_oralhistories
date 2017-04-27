@@ -41,3 +41,4 @@
     <?php print $metadata; ?>
   </div>
 </div>
+<link type="text/css" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.4/css/bootstrap-select.min.css" media="all" />
