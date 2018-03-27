@@ -1,6 +1,6 @@
 .transcript-search-options,
 .transcript-navigate-results {
-    display: none;
+    display: block;
 }
 
 .has-searched .transcript-search-options,
